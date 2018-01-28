@@ -1,17 +1,17 @@
 {
-  "name": "ski-dictionary",
+  "name": "Apptwo",
   "version": "1.0.0",
-  "description": "A collection of skier terms and definitions",
+  "description": "Online Chat app",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js"
   },
   "keywords": [
     "ski",
     "terms",
     "dictionary"
   ],
-  "author": "Alex Banks",
+  "author": "Santosh",
   "license": "MIT",
   "dependencies": {
     "body-parser": "^1.14.1",
