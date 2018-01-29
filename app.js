@@ -12,8 +12,8 @@ app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'build', 'index.html'));
 });
 
-app.listen(app.get('port'), app.get('ip'), function(){
-  console.log("Express server listening on " + app.get('ip') + ":" + app.get('port'));
+app.listen(app.get('port'), function(){
+  console.log("Express server listening on " + app.get('port'));
 });
 
 module.exports = app;
